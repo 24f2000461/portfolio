@@ -1,0 +1,12 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 24f2000461@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
